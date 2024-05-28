@@ -230,3 +230,6 @@ def User_config(request):
     #     })
 
     return render(request   , "user_config.html", {"perfiles": perfiles})       
+
+def test():
+    pass
